@@ -14,7 +14,7 @@ bound = np.array([])
 arr_multi = np.array([])
 arr_in = np.array([])
 arr_dipole = np.array([])
-arr_mass = np.array([])
+arr_co2 = np.array([])
 arr_mass = np.array([])
 clay_ele = ["st", "ao", "mgo", "ob", "obos", "oh", "ohs", "ho"]
 co2_ele = ["co", "oc"]
@@ -80,7 +80,7 @@ def readcoor():  # read the coordinate from the dump file,then save water in the
     # the information of box size in array arr_box
     global arr_box
     global arr_multi
-    global arr_multi
+    global arr_co2
     global clays
     global cations
     global co2s
